@@ -1,0 +1,22 @@
+{
+  "name": "tip-calculator-app-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass styles/sass/main.scss styles/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmirandach/tip-calculator-app.git"
+  },
+  "author": "Brenda Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmirandach/tip-calculator-app/issues"
+  },
+  "homepage": "https://github.com/bmirandach/tip-calculator-app#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

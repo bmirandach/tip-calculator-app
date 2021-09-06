@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="./styles/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class="header">
+    <img class="logo" src="./images/logo.svg" alt="Splitter logo" />
+    <h1 class="not-visible">Splitter</h1>
+  </header>
+  <main>
+    <div class="card">
+      <div class="data">
+        <div class="data__bill">
+          <label for="bill-input">Bill</label>
+          <input id="bill-input" class="input bill-input margin-top padding-left" type="number" placeholder="0" required autofocus />
+        </div>
+        <p>Select Tip %</p>
+        <div class="data__percentages">
+          <button class="button data__button" value="0.05">5%</button>
+          <button class="button data__button" value="0.1">10%</button>
+          <button class="button data__button" value="0.15">15%</button>
+          <button class="button data__button" value="0.25">25%</button>
+          <button class="button data__button" value="0.5">50%</button>
+          <label class="not-visible" for="custom-input">Custom tip percentage</label>
+          <input class="input" type="number" placeholder="Custom" id="custom-input" />
+        </div>
+        <div class="data__people">
+          <div class="space-between">
+            <label for="people-input">Number of People</label>
+            <p class="message-invalid invisible">Can't be zero</p>
+          </div>
+          <input id="people-input" class="input people-input margin-top padding-left" min="1" type="number" placeholder="0" />
+        </div>
+      </div>
+      <div class="results">
+        <div class="results__text">
+          <div class="space-between results__text__tip">
+            <div class="label-prices">
+              <p>Tip Amount</p>
+              <p class="acclaration">/ person</p>
+            </div>
+            <p class="price tip-price">0.00</p>
+          </div>
+          <div class="space-between">
+            <div>
+              <p>Total</p>
+              <p class="acclaration">/ person</p>
+            </div>
+            <p class="price total-price">0.00</p>
+          </div>
+        </div>
+        <button class="button results__button">RESET</button>
+      </div>
+    </div>
+  </main>
+
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+    <p>Coded by <a href="https://github.com/bmirandach">Brenda Miranda</a>.</p>
+  </div>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
