@@ -48,7 +48,7 @@ Users should be able to:
 ### What I learned
 
 I'll talk about my first sass experience in Thoughts, so this space will be to talk about the icon inside the input. It wasn't until I started writing the js file that I realized the better way to add that dollar symbol to the bill input.
-I want this burned in my memory.This is The Tip. I can't believe I was using a pseudo-element(::before) to add the icon and then modifying its position with media queries 🥴
+I want this burned in my memory. This is The Tip. I can't believe I was using a pseudo-element(::before) to add the icon and then modifying its position with media queries 🥴
 
 So... you leave your input alone:
 
@@ -77,7 +77,7 @@ I can't point at this project and say 'hey look at this, look at my project with
 
 So... Sass. Need more practice.
 
-JS was a nice break after all my doubts with sass. After a few twists and turns everything was working. There is no message for when the user inputs a negative or decimal number in the input of Number of People. So if the number is not an integer or higher than 0 the input will have the orage border and nothing else, just something I wanted to point out.
+JS was a nice break after all my doubts with sass. After a few twists and turns everything was working. There is no message for when the user inputs a negative or decimal number in the input of Number of People. So if the number is not an integer or higher than 0 the input will have the orange border and nothing else, just something I wanted to point out.
  
 I'll do more projects, I'll keep practicing my naming ability (for classes and variables). Still have to refine my knowledge about flex and grid, when is one better than the other? And JS! I want more projects with javascript 👀
 
